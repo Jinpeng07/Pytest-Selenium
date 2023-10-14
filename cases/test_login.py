@@ -1,5 +1,5 @@
 import pytest
-from lib.webUI import smpUI
+from util.webUI import smpUI
 
 
 def test_login_success():

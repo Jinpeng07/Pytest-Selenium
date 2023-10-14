@@ -3,7 +3,7 @@ import time
 import pytest
 from selenium.webdriver.common.by import By
 
-from lib.webUI import smpUI
+from util.webUI import smpUI
 from cfg import *
 
 
