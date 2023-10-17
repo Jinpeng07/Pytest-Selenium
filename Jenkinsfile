@@ -22,7 +22,7 @@ pipeline{
                                     <h1> pass cases: ${TEST_COUNTS, var="pass"}</h1>
                                     <h1> fail cases: ${TEST_COUNTS, var="fail"}</h1>
                                </html>''',
-             subject: 'pipeline demo result: _version',
+             subject: 'pipeline demo result: ${_version}',
              to: '18770766249@163.com'
         }
     }
